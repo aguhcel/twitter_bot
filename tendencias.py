@@ -5,11 +5,9 @@ import tweepy
 from time import sleep
 from random import randrange
 # Acceso a Twitter
-auth = tweepy.OAuthHandler("TOKEN",
-                           "TOKEN SECRETO")
+auth = tweepy.OAuthHandler("consumer_key", "consumer_secret")
 
-auth.set_access_token("TOKEN AUT",
-                      "TOKEN AUT SECRETO")
+auth.set_access_token("access_token", "access_token_secret")
 # Creando el objeto API
 api = tweepy.API(auth)
 

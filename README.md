@@ -2,10 +2,8 @@
 
 Bot para twitter que hace comentarios random
 
-Se necesita tener instalado python 3.6 =>
+Se necesita tener instalado python 3.6 =>, ademas de tener una cuenta de desarrollador en twitter.com
 
-Pasos instalar tweepy
-
-  pip3 install tweepy
+  Paso 1. pip3 install tweepy
   
-  python tendencias.py
+  Paso2. python tendencias.py
